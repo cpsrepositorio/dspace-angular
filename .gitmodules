@@ -1,0 +1,3 @@
+[submodule "src/themes/riccps"]
+	path = src/themes/riccps
+	url = https://github.com/cpsrepositorio/ric-dspace-angular-theme.git
