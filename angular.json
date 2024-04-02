@@ -59,6 +59,11 @@
                 "input": "src/themes/dspace/styles/theme.scss",
                 "inject": false,
                 "bundleName": "dspace-theme"
+              },
+              {
+                "input": "src/themes/riccps/styles/theme.scss",
+                "inject": false,
+                "bundleName": "riccps-theme"
               }
             ],
             "scripts": [],
@@ -110,7 +115,8 @@
           "builder": "@angular-builders/custom-webpack:dev-server",
           "options": {
             "browserTarget": "dspace-angular:build",
-            "port": 4000
+            "port": 4000,
+            "disableHostCheck": true
           },
           "configurations": {
             "development": {

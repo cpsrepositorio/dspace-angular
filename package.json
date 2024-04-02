@@ -44,9 +44,9 @@
   },
   "browser": {
     "fs": false,
-    "path": false,
     "http": false,
-    "https": false
+    "https": false,
+    "path": false
   },
   "private": true,
   "resolutions": {
